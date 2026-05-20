@@ -1,0 +1,306 @@
+
+🧠🔐 Taller Aplicado
+Machine Learning con Privacidad Diferencial usando SmartNoise
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎯 Objetivo del taller
+
+Aplicar técnicas de privacidad diferencial usando SmartNoise para proteger datos sensibles antes de realizar análisis de Machine Learning y clustering.
+
+El estudiante deberá:
+
+• cargar sus propios datos
+• proteger información sensible
+• aplicar ruido diferencial
+• ejecutar algoritmos de clustering
+• analizar el impacto del ruido sobre los resultados
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🚀 Contexto del problema
+
+En escenarios reales de:
+
+• salud
+• gobierno
+• fintech
+• educación
+• analítica urbana
+• IoT
+
+NO siempre es posible usar los datos exactos de las personas.
+
+Por esta razón, muchas organizaciones aplican:
+
+PRIVACIDAD DIFERENCIAL
+
+para:
+
+• proteger usuarios
+• evitar reidentificación
+• cumplir normas de privacidad
+• mantener valor analítico
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🧠 ¿Qué aprenderán?
+
+Al finalizar el taller el estudiante podrá:
+
+✅ aplicar ruido diferencial
+✅ proteger datos sensibles
+✅ ejecutar clustering con datos privados
+✅ comparar resultados originales vs protegidos
+✅ interpretar impacto del ruido en Machine Learning
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📦 Tecnologías
+
+• Python
+• Pandas
+• NumPy
+• Matplotlib
+• Scikit-Learn
+• SmartNoise
+• DBSCAN o K-Means
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⚠️ IMPORTANTE
+
+Cada grupo debe trabajar con:
+
+✅ sus propios datos
+o
+✅ un dataset público elegido por ellos
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📁 Parte 1 — Selección del dataset
+
+Cada grupo debe escoger un dataset que tenga:
+
+• variables numéricas
+• mínimo 100 registros
+• información susceptible de privacidad
+
+Ejemplos:
+
+• ventas
+• clientes
+• sensores
+• estudiantes
+• salud
+• GPS
+• salarios
+• comportamiento de usuarios
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔥 Parte 2 — Análisis exploratorio
+
+1. Exploración del dataset
+
+Deben realizar:
+
+• dimensiones
+• tipos de variables
+• valores faltantes
+• estadísticas
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2. Identificación de variables sensibles
+
+Ejemplos:
+
+• salario
+• edad
+• ubicación
+• ingresos
+• consumo
+• temperatura médica
+• historial
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔐 Parte 3 — Aplicar privacidad diferencial
+
+1. Instalar SmartNoise
+
+pip install opendp-smartnoise
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2. Aplicar ruido diferencial
+
+Deben agregar ruido a:
+
+• mínimo 2 variables sensibles
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Deben justificar:
+
+• por qué eligieron esas variables
+• qué riesgo existía
+• cómo afecta el ruido
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🧠 Parte 4 — Clustering
+
+Aplicar:
+
+OPCIÓN A
+K-Means
+
+o
+
+OPCIÓN B
+DBSCAN
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔥 IMPORTANTE
+
+Deben ejecutar clustering sobre:
+
+• Dataset original
+• Dataset protegido
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📊 Parte 5 — Comparación
+
+Comparar:
+
+• número de clusters
+• silhouette score
+• separación visual
+• impacto del ruido
+• estabilidad del modelo
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📈 Parte 6 — Visualización
+
+Deben construir:
+
+✅ gráficas antes/después
+✅ clusters originales
+✅ clusters protegidos
+✅ comparación visual
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🧠 Parte 7 — Interpretación
+
+Responder:
+
+1. ¿El ruido destruyó completamente los patrones?
+
+2. ¿Qué tanto cambió el clustering?
+
+3. ¿Qué se perdió?
+
+4. ¿Qué se protegió?
+
+5. ¿Vale la pena sacrificar precisión por privacidad?
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔥 Parte 8 — Relación con Machine Learning real
+
+Explicar:
+
+¿Por qué esto es importante en producción?
+
+Relacionarlo con:
+
+• GDPR
+• Habeas Data
+• salud
+• gobierno
+• fintech
+• inteligencia artificial ética
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+💻 Estructura obligatoria del notebook
+
+ANTES DE CADA BLOQUE
+
+Explicar:
+• qué se va a hacer
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+DENTRO DEL CÓDIGO
+
+Comentar:
+• cada línea importante
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+DESPUÉS DEL BLOQUE
+
+Explicar:
+• qué se observó
+• qué significa
+• cómo impacta el modelo
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📄 Entregables
+
+1️⃣ Notebook (.ipynb)
+
+Debe contener:
+
+✅ código funcional
+✅ explicaciones
+✅ visualizaciones
+✅ interpretación
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2️⃣ Documento técnico
+
+Máximo 8 páginas.
+
+Estructura:
+
+• Introducción
+• Dataset seleccionado
+• Variables sensibles
+• Aplicación de SmartNoise
+• Clustering
+• Resultados
+• Comparación
+• Conclusiones
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📊 Rúbrica
+
+• Aplicación correcta de SmartNoise → 25%
+• Implementación de clustering → 20%
+• Comparación original vs privado → 20%
+• Interpretación y análisis → 20%
+• Calidad técnica del notebook → 15%
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔥 BONUS
+
+Sube nota si:
+
+✅ usan PCA
+✅ usan visualización avanzada
+✅ prueban distintos niveles de ruido
+✅ usan mapas o datos geográficos
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
