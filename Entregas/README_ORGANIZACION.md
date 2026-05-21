@@ -1,10 +1,10 @@
 # Organizacion de entregas
 
-Estructura corregida:
+Estructura actualizada segun el grupo oficial de Machine Learning.
 
-- `Entregas/Individuales/<Estudiante>/...`: entregas cuyo propietario aparece claramente en el archivo, carpeta o PR.
-- `Entregas/Equipos/<Equipo>/...`: entregas de equipo, guardadas una sola vez por equipo.
-- `Entregas/Sin_Identificar/Pendiente_Identificar/...`: archivos sin propietario confiable.
-- `Teams/teams.md`: fuente de equipos indicada por el docente.
+- `Entregas/Individuales`: solo estudiantes del grupo Machine Learning con propietario claro.
+- `Entregas/Equipos`: solo equipos que contienen estudiantes del grupo Machine Learning.
+- `Entregas/Otros_Grupos/Pendiente_Clasificar`: entregas de estudiantes que no aparecen en el listado oficial de Machine Learning o archivos sin propietario confirmado; pueden corresponder a Programacion o Analitica.
+- `Teams/machine_learning_roster.md`: listado oficial usado para separar las entregas.
 
-Regla principal: no se duplican entregas grupales dentro de cada integrante; se consolidan por equipo y se califican individualmente desde el CSV de notas.
+No se eliminan evidencias; solo se separan para evitar mezclar cursos/grupos.
